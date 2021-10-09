@@ -3,7 +3,7 @@ const { auth, postReplyWithMedia, postReply  } = require('./config.js');
 
 const client = auth();
 
-client.stream('statuses/filter', { track: '@jhenthorn !yuck' }, function (stream) {
+client.stream('statuses/filter', { track: '@cryptoadz !vibe' }, function (stream) {
   console.log("Searching for tweets...");
 
   // when a tweet is found
